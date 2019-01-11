@@ -29,8 +29,8 @@ body {
 	text-decoration: none;
 	letter-spacing: 0px;
 	line-height: 1;
-	text-shadow: #EDEDED 2px 1px 0;
 	position: relative;
+	text-shadow: #EDEDED 2px 1px 0;
 }
 
 
@@ -111,6 +111,7 @@ footer {
   color: #ffffff; 
   background-color: #C8629B; 
   border-color: #C23B88; 
+  text-shadow: #EDEDED 0px 0px 0;
 } 
  
 .btn-blessed:hover, 
