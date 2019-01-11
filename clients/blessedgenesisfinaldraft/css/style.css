@@ -1,16 +1,31 @@
 body {
+	background: url("../images/bg.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
 	font-family: 'Open Sans', sans-serif;
 	color: #555;
 }
 
+@media only screen and (min-width : 300px) and (max-width : 500px) {
+	html, body {
+    	height: 100%;
+	}
+	html {
+	    overflow-y: hidden;
+	}
+	body {
+	    overflow-y: scroll;
+	}
+	body {
+	    background: url("../images/bg2.png") no-repeat center;
+	    background-size: cover;
+	}
+}
+
 #fixedbg {
-	background-image: url("../images/bg.png");
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-
 	text-decoration: none;
 	letter-spacing: 0px;
 	line-height: 1;
@@ -18,28 +33,6 @@ body {
 	position: relative;
 }
 
-#fixedbg:before {
-	content: "";
-	display: block;
-	position: fixed;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -10;
-	background-image: url("../images/bg.png") no-repeat center center;
-	height: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-
-	text-decoration: none;
-	letter-spacing: 0px;
-	line-height: 1;
-	text-shadow: #EDEDED 2px 1px 0;
-	position: relative;
-}
 
 .navbar-brand,
 .navbar-nav li a {
@@ -171,4 +164,67 @@ fieldset[disabled] .btn-blessed.active {
   line-height: 1;
   text-shadow: #EDEDED 3px 2px 0;
   position: relative;
+}
+
+.corner-link {
+  -webkit-transform: rotate(-45deg);  
+     -moz-transform: rotate(-45deg); 
+      -ms-transform: rotate(-45deg); 
+       -o-transform: rotate(-45deg); 
+          transform: rotate(-45deg);
+  -webkit-transform-origin: 0 0;
+     -moz-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+       -o-transform-origin: 0 0;
+          transform-origin: 0 0;
+    right: 0;
+    top: 0;
+    display: block;
+    height: 150px;
+    position: absolute;
+    width: 100px;
+}
+.corner-text-wrapper {
+  -webkit-transform: rotate(45deg);  
+     -moz-transform: rotate(45deg);  
+      -ms-transform: rotate(45deg);  
+       -o-transform: rotate(45deg);  
+          transform: rotate(45deg);
+    clip: rect(0px, 141.421px, 70.7107px, 0px);
+    height: 141.421px;
+    position: absolute;
+    right: -20.7107px;
+    top: -20.7107px;
+    width: 141.421px;
+}
+.corner-text {
+  color: white;
+ -webkit-transform: rotate(-45deg);  
+     -moz-transform: rotate(-45deg); 
+      -ms-transform: rotate(-45deg); 
+       -o-transform: rotate(-45deg); 
+          transform: rotate(-45deg);
+    left: 20px;
+    top: 20px;
+    background-color: #e74c3c;
+    display: block;
+    height: 100px;
+    position: absolute;
+    width: 100px;
+}
+.corner-text span {
+  position: relative;
+  font-family: "HelveticaNeue-CondensedBold", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-shadow: #EDEDED 0px 0px 0;
+  font-weight: 700;
+  top: -185px;
+  left: 10px;
+  display: block;
+  text-align: center;
+  top: 10px;
+}
+
+.services_ul, li {
+	list-style-type: none;
+	margin: 0 0 5px 0;
 }
