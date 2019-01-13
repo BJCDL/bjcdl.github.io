@@ -229,3 +229,8 @@ fieldset[disabled] .btn-blessed.active {
 	list-style-type: none;
 	margin: 0 0 5px 0;
 }
+
+.socialmedia {
+  color:#C8629B; 
+  padding-right: 50px;
+}
