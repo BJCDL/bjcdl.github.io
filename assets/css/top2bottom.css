@@ -240,7 +240,7 @@ margin-bottom: 5px;
 }
 
 @media (max-width: 767px) {
-.no-pjs-render .bt-mid-holder {
+.container .bt-mid-holder {
 	padding-left: 25px;
 	padding-right: 25px;
 	padding-top: 20px;
@@ -248,7 +248,7 @@ margin-bottom: 5px;
 	background-color: white;
 	overflow: hidden;
 }
-.no-pjs-render .bt-mid-left {
+.container .bt-mid-left {
 	width: 100%;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -256,7 +256,7 @@ margin-bottom: 5px;
 	display: inline-block;
 	padding-right: 0px !important;
 }
-.no-pjs-render .bt-mid-right {
+.container .bt-mid-right {
 	width: 100%;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -265,22 +265,22 @@ margin-bottom: 5px;
 	position: relative;
 	padding-left: 0px !important;
 }
-.no-pjs-render .fa-graduation-cap {
+.container .fa-graduation-cap {
 	font-size: 17px !important;
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
-.no-pjs-render .bt-contact-text {
+.container .bt-contact-text {
 	display: inline-block;
 	color: white;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	font-size: 12px;
 }
-.no-pjs-render .bt-titlename {
+.container .bt-titlename {
 	font-size: 40px;
 }
-.no-pjs-render .block {
+.container .block {
 	padding-left: 15px;
 	padding-right: 15px;
 	font-size: 10px !important;
